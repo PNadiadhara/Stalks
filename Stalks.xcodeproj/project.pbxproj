@@ -18,6 +18,7 @@
 		BFE57C6925E06975004B28D4 /* TwitterTrendClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BFE57C6825E06974004B28D4 /* TwitterTrendClassifier.mlmodel */; };
 		BFE57C8725E07A74004B28D4 /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE57C7725E07A34004B28D4 /* SwifteriOS.framework */; };
 		BFE57C8825E07A74004B28D4 /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BFE57C7725E07A34004B28D4 /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BFE57C8D25E07EDB004B28D4 /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE57C8C25E07EDB004B28D4 /* config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +105,7 @@
 		BFE57C6825E06974004B28D4 /* TwitterTrendClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = TwitterTrendClassifier.mlmodel; path = NLPModel/TwitterTrendClassifier.mlmodel; sourceTree = SOURCE_ROOT; };
 		BFE57C6D25E07025004B28D4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BFE57C6E25E07A34004B28D4 /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = "../Stalks-helper/Swifter/Swifter.xcodeproj"; sourceTree = "<group>"; };
+		BFE57C8C25E07EDB004B28D4 /* config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 				BFC794BA25E063F4000D660F /* AppDelegate.swift */,
 				BFC794BC25E063F4000D660F /* SceneDelegate.swift */,
 				BFC794BE25E063F4000D660F /* ViewController.swift */,
+				BFE57C8C25E07EDB004B28D4 /* config.swift */,
 				BFC794C025E063F4000D660F /* Main.storyboard */,
 				BFC794C325E063F7000D660F /* Assets.xcassets */,
 				BFC794C525E063F7000D660F /* LaunchScreen.storyboard */,
@@ -385,6 +388,7 @@
 				BFC794BF25E063F4000D660F /* ViewController.swift in Sources */,
 				BFC794BB25E063F4000D660F /* AppDelegate.swift in Sources */,
 				BFC794BD25E063F4000D660F /* SceneDelegate.swift in Sources */,
+				BFE57C8D25E07EDB004B28D4 /* config.swift in Sources */,
 				BFE57C6925E06975004B28D4 /* TwitterTrendClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
